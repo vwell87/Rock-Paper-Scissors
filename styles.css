@@ -1,13 +1,13 @@
 :root {
-    --primary-light: #ddd;
-    --primary-dark: #222831;
-    --secondary-dark: #393e46;
-    --secondary-dark-hover: #4a4f57;
-    --secondary-dark-active: #5b5f68;
-    --header: #111720;
+    --primary-light: #f1f1f1;
+    --primary-dark: #111720;
+    --secondary-dark: #020c1a;
+    --secondary-dark-hover: #bba90c;
+    --secondary-dark-active: #9098aa;
+    --header: #020c1a;
     --primary-yellow: #fac650;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -23,12 +23,18 @@
   }
   
   body {
-    background-color: var(--primary-dark);
-    color: var(--primary-light);
-    font-family: 'Roboto', sans-serif;
+    background-color: #051644;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    color: ;
     line-height: 1.6;
     /* footer support */
     margin-bottom: 100px;
+   
+  }
+
+  h2, h3 {
+    text-shadow: #111720 2px 2px;
   }
   
   button {
@@ -50,9 +56,8 @@
   }
   
   .title {
-    font-size: 32px;
-    color: var(--primary-yellow);
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 50px;
   }
   
   /* MAIN */
@@ -93,6 +98,7 @@
     margin-bottom: 20px;
     font-size: 22px;
     font-weight: bold;
+    text-shadow: #111720 2px 2px;
   }
   
   .buttons {
@@ -123,6 +129,10 @@
   .sign {
     font-size: 80px;
     margin-bottom: 10px;
+    background: linear-gradient(0deg, #f74f01, #ecb131 80%);
+    border-color: #111720;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   }
   
   /* FOOTER */
